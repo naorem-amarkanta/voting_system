@@ -1,0 +1,62 @@
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+@media (max-width: 767px) {
+  #mainSection {
+    flex-direction: column;
+  }
+}
+
+/* #profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+} */
+
+
+.group-card{
+  position: relative;
+}
+/* .upper {
+  height: 100px;
+} */
+
+.upper img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.user {
+  position: relative;
+}
+.profile img {
+  height: 80px;
+  width: 80px;
+  margin-top: 2px;
+}
+.profile {
+  position: absolute;
+  top: -80px;
+  left: 38%;
+  height: 90px;
+  width: 90px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
